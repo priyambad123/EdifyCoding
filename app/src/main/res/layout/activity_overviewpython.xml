@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_overviewpython"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context="com.apkglobal.edifycoding.androidpages.overviewandroidActivity">
+
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_heightPercent="100%">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.percent.PercentRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                app:layout_heightPercent="100%">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pythonoverviewtitle"
+                    android:text="Python Course Content"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="25sp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverviewtitle"
+                    android:id="@+id/pythonoverview1"
+                    android:text="1.The Python Programming Language"
+                    android:textColor="#000"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview1"
+                    android:id="@+id/pythonoverview1.1"
+                    android:layout_marginLeft="10dp"
+                    android:text="i.Devlopment of Python"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview1.1"
+                    android:id="@+id/pythonoverview1.2"
+                    android:layout_marginLeft="10dp"
+                    android:text="ii.First program"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview1.2"
+                    android:id="@+id/pythonoverview1.3"
+                    android:layout_marginLeft="10dp"
+                    android:text="iii.Features of Python"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview1.3"
+                    android:id="@+id/pythonoverview2"
+                    android:text="2.Funtions in Python"
+                    android:textColor="#000"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview2"
+                    android:id="@+id/pythonoverview2.1"
+                    android:layout_marginLeft="10dp"
+                    android:text="i.Function calls"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview2.1"
+                    android:id="@+id/pythonoverview2.2"
+                    android:layout_marginLeft="10dp"
+                    android:text="ii.Flow of Execution"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview2.2"
+                    android:id="@+id/pythonoverview2.3"
+                    android:layout_marginLeft="10dp"
+                    android:text="iii.Parameters and Arguments"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview2.3"
+                    android:id="@+id/pythonoverview2.4"
+                    android:layout_marginLeft="10dp"
+                    android:text="iv.Why Functions?"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview2.4"
+                    android:id="@+id/pythonoverview3"
+                    android:text="3.Interface Design"
+                    android:textColor="#000"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview3"
+                    android:id="@+id/pythonoverview3.1"
+                    android:layout_marginLeft="10dp"
+                    android:text="i.Encapsulation"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview3.1"
+                    android:id="@+id/pythonoverview3.2"
+                    android:layout_marginLeft="10dp"
+                    android:text="ii.Generalization"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview3.2"
+                    android:id="@+id/pythonoverview3.3"
+                    android:layout_marginLeft="10dp"
+                    android:text="iii.Refactoring"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview3.3"
+                    android:id="@+id/pythonoverview3.4"
+                    android:layout_marginLeft="10dp"
+                    android:text="iv.Debugging"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview3.4"
+                    android:id="@+id/pythonoverview4"
+                    android:text="4.Conditionals And Recursion"
+                    android:textColor="#000"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview4"
+                    android:id="@+id/pythonoverview4.1"
+                    android:layout_marginLeft="10dp"
+                    android:text="i.Operators and Expression"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview4.1"
+                    android:id="@+id/pythonoverview4.2"
+                    android:layout_marginLeft="10dp"
+                    android:text="ii.Conditionals"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview4.2"
+                    android:id="@+id/pythonoverview4.3"
+                    android:layout_marginLeft="10dp"
+                    android:text="iii.Recursion"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview4.3"
+                    android:id="@+id/pythonoverview5"
+                    android:text="5.Fruitful Functions"
+                    android:textColor="#000"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview5"
+                    android:id="@+id/pythonoverview5.1"
+                    android:layout_marginLeft="10dp"
+                    android:text="i.Return Values"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview5.1"
+                    android:id="@+id/pythonoverview5.2"
+                    android:layout_marginLeft="10dp"
+                    android:text="ii.Composition"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview5.2"
+                    android:id="@+id/pythonoverview5.3"
+                    android:layout_marginLeft="10dp"
+                    android:text="iii.Boolean Function"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview5.3"
+                    android:id="@+id/pythonoverview5.4"
+                    android:layout_marginLeft="10dp"
+                    android:text="iv.Incremental Devlopment"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview5.4"
+                    android:id="@+id/pythonoverview6"
+                    android:text="6.Iteration"
+                    android:textColor="#000"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview6"
+                    android:id="@+id/pythonoverview6.1"
+                    android:layout_marginLeft="10dp"
+                    android:text="i.Multiple Assignment"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview6.1"
+                    android:id="@+id/pythonoverview6.2"
+                    android:layout_marginLeft="10dp"
+                    android:text="ii.Updating Variables"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview6.2"
+                    android:id="@+id/pythonoverview6.3"
+                    android:layout_marginLeft="10dp"
+                    android:text="iii.While Statement"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview6.3"
+                    android:id="@+id/pythonoverview6.4"
+                    android:layout_marginLeft="10dp"
+                    android:text="iv.Break"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview6.4"
+                    android:id="@+id/pythonoverview7"
+                    android:text="7.Strings"
+                    android:textColor="#000"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview7"
+                    android:id="@+id/pythonoverview7.1"
+                    android:layout_marginLeft="10dp"
+                    android:text="i.String is a sequence"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview7.1"
+                    android:id="@+id/pythonoverview7.2"
+                    android:layout_marginLeft="10dp"
+                    android:text="ii.len operator"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview7.2"
+                    android:id="@+id/pythonoverview7.3"
+                    android:layout_marginLeft="10dp"
+                    android:text="iii.For loop Traversal"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview7.3"
+                    android:id="@+id/pythonoverview7.4"
+                    android:layout_marginLeft="10dp"
+                    android:text="iv.String Slices"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview7.4"
+                    android:id="@+id/pythonoverview7.5"
+                    android:layout_marginLeft="10dp"
+                    android:text="v.String Methods"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview7.5"
+                    android:id="@+id/pythonoverview8"
+                    android:text="8.Lists"
+                    android:textColor="#000"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview8"
+                    android:id="@+id/pythonoverview8.1"
+                    android:layout_marginLeft="10dp"
+                    android:text="i.Traversing a list"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview8.1"
+                    android:id="@+id/pythonoverview8.2"
+                    android:layout_marginLeft="10dp"
+                    android:text="ii.List Operations"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview8.2"
+                    android:id="@+id/pythonoverview8.3"
+                    android:layout_marginLeft="10dp"
+                    android:text="iii.Map, Filter and Reduce"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview8.3"
+                    android:id="@+id/pythonoverview8.4"
+                    android:layout_marginLeft="10dp"
+                    android:text="iv.Aliasing"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview8.4"
+                    android:id="@+id/pythonoverview9"
+                    android:text="9.Dictionaries"
+                    android:textColor="#000"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview9"
+                    android:id="@+id/pythonoverview9.1"
+                    android:layout_marginLeft="10dp"
+                    android:text="i.Dictionary as a set of counters"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview9.1"
+                    android:id="@+id/pythonoverview9.2"
+                    android:layout_marginLeft="10dp"
+                    android:text="ii.Reverse Lookup"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview9.2"
+                    android:id="@+id/pythonoverview9.3"
+                    android:layout_marginLeft="10dp"
+                    android:text="iii.Dictionaries and Lists"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview9.3"
+                    android:id="@+id/pythonoverview9.4"
+                    android:layout_marginLeft="10dp"
+                    android:text="iv.Memos"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview9.4"
+                    android:id="@+id/pythonoverview10"
+                    android:text="10.Tuples"
+                    android:textColor="#000"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview10"
+                    android:id="@+id/pythonoverview10.1"
+                    android:layout_marginLeft="10dp"
+                    android:text="i.Tuples properties"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview10.1"
+                    android:id="@+id/pythonoverview10.2"
+                    android:layout_marginLeft="10dp"
+                    android:text="ii.Lists and Tuples"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview10.2"
+                    android:id="@+id/pythonoverview10.3"
+                    android:layout_marginLeft="10dp"
+                    android:text="iii.Comparing Tuples"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview10.3"
+                    android:id="@+id/pythonoverview10.4"
+                    android:layout_marginLeft="10dp"
+                    android:text="iv.Sequences of Sequences"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview10.4"
+                    android:id="@+id/pythonoverview11"
+                    android:text="11.Data Structure Selection"
+                    android:textColor="#000"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview11"
+                    android:id="@+id/pythonoverview11.1"
+                    android:layout_marginLeft="10dp"
+                    android:text="i.Word Frequency Analysis"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview11.1"
+                    android:id="@+id/pythonoverview11.2"
+                    android:layout_marginLeft="10dp"
+                    android:text="ii.Markov Analysis"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview11.2"
+                    android:id="@+id/pythonoverview12"
+                    android:text="12.Files"
+                    android:textColor="#000"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview12"
+                    android:id="@+id/pythonoverview12.1"
+                    android:layout_marginLeft="10dp"
+                    android:text="i.Filenames and paths"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview12.1"
+                    android:id="@+id/pythonoverview12.2"
+                    android:layout_marginLeft="10dp"
+                    android:text="ii.Catching Exceptions"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview12.2"
+                    android:id="@+id/pythonoverview12.3"
+                    android:layout_marginLeft="10dp"
+                    android:text="iii.Pickling and Pipes"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview12.3"
+                    android:id="@+id/pythonoverview13"
+                    android:text="13.Classes and Objects"
+                    android:textColor="#000"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview13"
+                    android:id="@+id/pythonoverview13.1"
+                    android:layout_marginLeft="10dp"
+                    android:text="i.Attributes"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview13.1"
+                    android:id="@+id/pythonoverview13.2"
+                    android:layout_marginLeft="10dp"
+                    android:text="ii.Object Properties"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview13.2"
+                    android:id="@+id/pythonoverview14"
+                    android:layout_marginLeft="10dp"
+                    android:text="14.Classes-Functions and Methods"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview14"
+                    android:id="@+id/pythonoverview14.1"
+                    android:layout_marginLeft="10dp"
+                    android:text="i.Pure Functions"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview14.1"
+                    android:id="@+id/pythonoverview14.2"
+                    android:layout_marginLeft="10dp"
+                    android:text="ii.Modifiers"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview14.2"
+                    android:id="@+id/pythonoverview14.3"
+                    android:layout_marginLeft="10dp"
+                    android:text="iii.Object-Oriented Features"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview14.3"
+                    android:id="@+id/pythonoverview15"
+                    android:layout_marginLeft="10dp"
+                    android:text="15.Inheritance"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview15"
+                    android:id="@+id/pythonoverview15.1"
+                    android:layout_marginLeft="10dp"
+                    android:text="i.Class Diagrams"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview15.1"
+                    android:id="@+id/pythonoverview15.2"
+                    android:layout_marginLeft="10dp"
+                    android:text="ii.Data Encapsulation"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview15.2"
+                    android:id="@+id/pythonoverview16"
+                    android:layout_marginLeft="10dp"
+                    android:text="16.Tkinter"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview16"
+                    android:id="@+id/pythonoverview16.1"
+                    android:layout_marginLeft="10dp"
+                    android:text="i.GUI"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview16.1"
+                    android:id="@+id/pythonoverview16.2"
+                    android:layout_marginLeft="10dp"
+                    android:text="ii.Widgets"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pythonoverview16.2"
+                    android:id="@+id/pythonoverview16.3"
+                    android:layout_marginLeft="10dp"
+                    android:text="iii.Menus and Callables"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+            </android.support.percent.PercentRelativeLayout>
+        </ScrollView>
+    </android.support.percent.PercentRelativeLayout>
+
+</android.support.percent.PercentRelativeLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Edify</string>
+    <string name="error">Wrong password please try again</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="slide_1_title">Learn Android</string>
+    <string name="slide_1_desc">Easiest way to learn Android through YouTube Tutorials and Notes!</string>
+
+    <string name="slide_2_title">Learn Java</string>
+    <string name="slide_2_desc">Learn Java From our Tutorials and Notes in an easy way!</string>
+
+    <string name="slide_3_title">Learn Python</string>
+    <string name="slide_3_desc">Learn Python from our online Tutorials and Notes</string>
+
+    <string name="slide_4_title">Online Projects</string>
+    <string name="slide_4_desc">Get Online project links!</string>
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

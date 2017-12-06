@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_overviewjava"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    tools:context="com.apkglobal.edifycoding.androidpages.overviewandroidActivity">
+
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_heightPercent="100%"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.percent.PercentRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                app:layout_heightPercent="100%">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/javaoverviewtitle"
+                    android:text="Java Course Content"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="25sp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/javaoverviewtitle"
+                    android:id="@+id/javaoverview1"
+                    android:text="1.Introduction to JAVA"
+                    android:textColor="#000"
+                    android:textSize="18sp"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/javaoverview1"
+                    android:id="@+id/btn_javaoverview1"
+                    android:background="@null"
+                    android:layout_marginLeft="10dp"
+                    android:text="i.Overview of JAVA"
+                    android:textAllCaps="false"
+                    android:textAlignment="textStart"
+                    android:textColor="#5467f4"
+                    android:textSize="15sp"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/btn_javaoverview1"
+                    android:id="@+id/btn_javaoverview2"
+                    android:textAllCaps="false"
+                    android:textAlignment="textStart"
+                    android:layout_marginLeft="10dp"
+                    android:text="ii.Java and Internet"
+                    android:textColor="#5467f4"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/btn_javaoverview2"
+                    android:id="@+id/btn_javaoverview3"
+                    android:text="2.OOPS in JAVA"
+                    android:textColor="#000"
+                    android:textSize="18sp"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="false"
+                    android:textAlignment="textStart"
+                    android:layout_below="@id/btn_javaoverview3"
+                    android:id="@+id/btn_javaoverview4"
+                    android:layout_marginLeft="10dp"
+                    android:text="i.Multithreaded"
+                    android:textColor="#5467f4"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/btn_javaoverview4"
+                    android:id="@+id/btn_javaoverview5"
+                    android:layout_marginLeft="10dp"
+                    android:text="ii.Archtecture Neutral"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/btn_javaoverview5"
+                    android:id="@+id/btn_javaoverview6"
+                    android:layout_marginLeft="10dp"
+                    android:text="iii.Interpreted and High Performance"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/btn_javaoverview6"
+                    android:id="@+id/btn_javaoverview7"
+                    android:layout_marginLeft="10dp"
+                    android:text="iv.Distributed and Dynamic"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/btn_javaoverview7"
+                    android:id="@+id/btn_javaoverview8"
+                    android:text="3.Inheritance in JAVA"
+                    android:textColor="#000"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/btn_javaoverview8"
+                    android:id="@+id/btn_javaoverview9"
+                    android:layout_marginLeft="10dp"
+                    android:text="i.Superclass"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/btn_javaoverview9"
+                    android:id="@+id/javaoverview10"
+                    android:layout_marginLeft="10dp"
+                    android:text="ii.Multilevel Hierarchy"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/javaoverview10"
+                    android:id="@+id/javaoverview11"
+                    android:layout_marginLeft="10dp"
+                    android:text="iii.Method Overriding"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/javaoverview11"
+                    android:id="@+id/javaoverview12"
+                    android:layout_marginLeft="10dp"
+                    android:text="iv.Dynamic Method Dispatch"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/javaoverview12"
+                    android:id="@+id/javaoverview13"
+                    android:text="4.Packages and Interfaces"
+                    android:textColor="#000"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/javaoverview13"
+                    android:id="@+id/javaoverview14"
+                    android:layout_marginLeft="10dp"
+                    android:text="i.Importing Packages"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/javaoverview14"
+                    android:id="@+id/javaoverview15"
+                    android:layout_marginLeft="10dp"
+                    android:text="ii.Interfaces"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/javaoverview15"
+                    android:id="@+id/javaoverview16"
+                    android:layout_marginLeft="10dp"
+                    android:text="iii.Nested Interfaces"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/javaoverview16"
+                    android:id="@+id/javaoverview17"
+                    android:layout_marginLeft="10dp"
+                    android:text="iv.Extending Interfaces"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/javaoverview17"
+                    android:id="@+id/javaoverview18"
+                    android:text="5.Exceptions Handling"
+                    android:textColor="#000"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/javaoverview18"
+                    android:id="@+id/javaoverview19"
+                    android:layout_marginLeft="10dp"
+                    android:text="i.Fundamentals"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/javaoverview19"
+                    android:id="@+id/javaoverview20"
+                    android:layout_marginLeft="10dp"
+                    android:text="ii.Exception Types"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/javaoverview20"
+                    android:id="@+id/javaoverview21"
+                    android:layout_marginLeft="10dp"
+                    android:text="iii.Try and Catch"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/javaoverview21"
+                    android:id="@+id/javaoverview22"
+                    android:layout_marginLeft="10dp"
+                    android:text="iv.Built in Exceptions"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/javaoverview22"
+                    android:id="@+id/javaoverview23"
+                    android:text="6.Collection classes "
+                    android:textColor="#000"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/javaoverview23"
+                    android:id="@+id/javaoverview24"
+                    android:layout_marginLeft="10dp"
+                    android:text="i.Types of Collection classes"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/javaoverview24"
+                    android:id="@+id/javaoverview25"
+                    android:layout_marginLeft="10dp"
+                    android:text="ii.Accessing a collection"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/javaoverview25"
+                    android:id="@+id/javaoverview26"
+                    android:layout_marginLeft="10dp"
+                    android:text="iii.Generic Collection"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/javaoverview26"
+                    android:id="@+id/javaoverview27"
+                    android:layout_marginLeft="10dp"
+                    android:text="iv.Legacy Classes"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/javaoverview27"
+                    android:id="@+id/javaoverview28"
+                    android:text="7.String Handling"
+                    android:textColor="#000"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/javaoverview28"
+                    android:id="@+id/javaoverview29"
+                    android:layout_marginLeft="10dp"
+                    android:text="i.Special String Operations"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/javaoverview29"
+                    android:id="@+id/javaoverview30"
+                    android:layout_marginLeft="10dp"
+                    android:text="ii.Character Extraction"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/javaoverview30"
+                    android:id="@+id/javaoverview31"
+                    android:layout_marginLeft="10dp"
+                    android:text="iii.String Buffer"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/javaoverview31"
+                    android:id="@+id/javaoverview32"
+                    android:layout_marginLeft="10dp"
+                    android:text="iv.Additional String Methods"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/javaoverview32"
+                    android:id="@+id/javaoverview33"
+                    android:text="8.File Input/Output"
+                    android:textColor="#000"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/javaoverview33"
+                    android:id="@+id/javaoverview34"
+                    android:layout_marginLeft="10dp"
+                    android:text="i.Interfaces"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/javaoverview34"
+                    android:id="@+id/javaoverview35"
+                    android:layout_marginLeft="10dp"
+                    android:text="ii.Serialization"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/javaoverview35"
+                    android:id="@+id/javaoverview36"
+                    android:text="9.MultiThreading in JAVA"
+                    android:textColor="#000"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/javaoverview36"
+                    android:id="@+id/javaoverview37"
+                    android:layout_marginLeft="10dp"
+                    android:text="i.Synchronization"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/javaoverview37"
+                    android:id="@+id/javaoverview38"
+                    android:layout_marginLeft="10dp"
+                    android:text="ii.Interthread Communication"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/javaoverview38"
+                    android:id="@+id/javaoverview39"
+                    android:text="10.AWT and Events"
+                    android:textColor="#000"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/javaoverview39"
+                    android:id="@+id/javaoverview40"
+                    android:layout_marginLeft="10dp"
+                    android:text="i.Window Fundamentals"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/javaoverview40"
+                    android:id="@+id/javaoverview41"
+                    android:layout_marginLeft="10dp"
+                    android:text="ii.Frame windows"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/javaoverview41"
+                    android:id="@+id/javaoverview42"
+                    android:layout_marginLeft="10dp"
+                    android:text="iii.Working with Graphics"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/javaoverview42"
+                    android:id="@+id/javaoverview43"
+                    android:layout_marginLeft="10dp"
+                    android:text="iv.Using FontMetrics"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/javaoverview43"
+                    android:id="@+id/javaoverview44"
+                    android:text="11.Java Swing"
+                    android:textColor="#000"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/javaoverview44"
+                    android:id="@+id/javaoverview45"
+                    android:layout_marginLeft="10dp"
+                    android:text="i.Origins of Swing"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/javaoverview45"
+                    android:id="@+id/javaoverview46"
+                    android:layout_marginLeft="10dp"
+                    android:text="ii.Key Features"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/javaoverview46"
+                    android:id="@+id/javaoverview47"
+                    android:layout_marginLeft="10dp"
+                    android:text="iii.Components and Containers"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/javaoverview47"
+                    android:id="@+id/javaoverview48"
+                    android:text="12.JDBC"
+                    android:textColor="#000"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/javaoverview48"
+                    android:id="@+id/javaoverview49"
+                    android:layout_marginLeft="10dp"
+                    android:text="i.Introducing the Bluetooth Service"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/javaoverview49"
+                    android:id="@+id/javaoverview50"
+                    android:layout_marginLeft="10dp"
+                    android:text="ii.JDBC kit"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/javaoverview50"
+                    android:id="@+id/javaoverview51"
+                    android:text="13.String Handling"
+                    android:textColor="#000"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/javaoverview51"
+                    android:id="@+id/javaoverview52"
+                    android:layout_marginLeft="10dp"
+                    android:text="i.String Operations"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/javaoverview52"
+                    android:id="@+id/javaoverview53"
+                    android:layout_marginLeft="10dp"
+                    android:text="ii.Modifying Strings"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/javaoverview13.3"
+                    android:text="iii.Other Methods"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_below="@+id/javaoverview53"
+                    android:layout_marginLeft="10dp" />
+
+              <!--  <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/javaoverview1.1"
+                    android:text="i.History and Evolution "
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_below="@+id/javaoverview1"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />-->
+
+            </android.support.percent.PercentRelativeLayout>
+        </ScrollView>
+    </android.support.percent.PercentRelativeLayout>
+
+</android.support.percent.PercentRelativeLayout>

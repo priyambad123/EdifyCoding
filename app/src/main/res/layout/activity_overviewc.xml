@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_overviewc"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    tools:context="com.apkglobal.edifycoding.cpages.overviewcActivity">
+
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_heightPercent="100%">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.percent.PercentRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                app:layout_heightPercent="100%">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/coverviewtitle"
+                    android:text="C Course Content"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="25sp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coverviewtitle"
+                    android:id="@+id/coverview1"
+                    android:text="1.Introduction to C"
+                    android:textColor="#000"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coverview1"
+                    android:id="@+id/coverview1.1"
+                    android:layout_marginLeft="10dp"
+                    android:text="i.Basics"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coverview1.1"
+                    android:id="@+id/coverview1.2"
+                    android:layout_marginLeft="10dp"
+                    android:text="ii.History of C"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coverview1.2"
+                    android:id="@+id/coverview1.3"
+                    android:layout_marginLeft="10dp"
+                    android:text="iii.Features of C Language"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coverview1.3"
+                    android:id="@+id/coverview2"
+                    android:text="2.Functions"
+                    android:textColor="#000"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coverview2"
+                    android:id="@+id/coverview2.1"
+                    android:layout_marginLeft="10dp"
+                    android:text="i.Types of Functions"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coverview2.1"
+                    android:id="@+id/coverview2.2"
+                    android:layout_marginLeft="10dp"
+                    android:text="ii.Function Prototype in C"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coverview2.2"
+                    android:id="@+id/coverview2.3"
+                    android:layout_marginLeft="10dp"
+                    android:text="iii.Overloading ,Overriding"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coverview2.3"
+                    android:id="@+id/coverview2.4"
+                    android:layout_marginLeft="10dp"
+                    android:text="iv.Static Functions in C"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coverview2.4"
+                    android:id="@+id/coverview3"
+                    android:text="3.Variables and Keywords"
+                    android:textColor="#000"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coverview3"
+                    android:id="@+id/coverview3.1"
+                    android:layout_marginLeft="10dp"
+                    android:text="i.Scope Rules in C"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coverview3.1"
+                    android:id="@+id/coverview3.2"
+                    android:layout_marginLeft="10dp"
+                    android:text="ii.Global Symbols"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coverview3.2"
+                    android:id="@+id/coverview3.3"
+                    android:layout_marginLeft="10dp"
+                    android:text="iii.Variable Declaration"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coverview3.3"
+                    android:id="@+id/coverview3.4"
+                    android:layout_marginLeft="10dp"
+                    android:text="iv.Redeclaration"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coverview3.4"
+                    android:id="@+id/coverview4"
+                    android:text="4.Pointers"
+                    android:textColor="#000"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coverview4"
+                    android:id="@+id/coverview4.1"
+                    android:layout_marginLeft="10dp"
+                    android:text="i.Introduction"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coverview4.1"
+                    android:id="@+id/coverview4.2"
+                    android:layout_marginLeft="10dp"
+                    android:text="ii.Array parameters"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coverview4.2"
+                    android:id="@+id/coverview4.3"
+                    android:layout_marginLeft="10dp"
+                    android:text="iii.Double Pointer"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coverview4.3"
+                    android:id="@+id/coverview4.4"
+                    android:layout_marginLeft="10dp"
+                    android:text="iv.Different Types of Pointers"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coverview4.4"
+                    android:id="@+id/coverview4.5"
+                    android:layout_marginLeft="10dp"
+                    android:text="v.Generic Linked List"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coverview4.5"
+                    android:id="@+id/coverview4.6"
+                    android:layout_marginLeft="10dp"
+                    android:text="vi.Function Pointer in C"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coverview4.6"
+                    android:id="@+id/coverview5"
+                    android:text="5.Storage Classes"
+                    android:textColor="#000"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coverview5"
+                    android:id="@+id/coverview5.1"
+                    android:layout_marginLeft="10dp"
+                    android:text="i.Static Variables"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coverview5.1"
+                    android:id="@+id/coverview5.2"
+                    android:layout_marginLeft="10dp"
+                    android:text="ii.extern Keyword"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coverview5.2"
+                    android:id="@+id/coverview5.3"
+                    android:layout_marginLeft="10dp"
+                    android:text="iii.Static Variables"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coverview5.3"
+                    android:id="@+id/coverview5.4"
+                    android:layout_marginLeft="10dp"
+                    android:text="iv.Register Keyword"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coverview5.4"
+                    android:id="@+id/coverview6"
+                    android:text="6.Input/Output"
+                    android:textColor="#000"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coverview6"
+                    android:id="@+id/coverview6.1"
+                    android:layout_marginLeft="10dp"
+                    android:text="i.print,scanf"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coverview6.1"
+                    android:id="@+id/coverview6.2"
+                    android:layout_marginLeft="10dp"
+                    android:text="ii.Printing a string"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coverview6.2"
+                    android:id="@+id/coverview6.3"
+                    android:layout_marginLeft="10dp"
+                    android:text="iii.Difference Betwn. sprintf, printf etc"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coverview6.3"
+                    android:id="@+id/coverview6.4"
+                    android:layout_marginLeft="10dp"
+                    android:text="iv.getc(),getch(),getchar()"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coverview6.4"
+                    android:id="@+id/coverview7"
+                    android:text="7.Operators"
+                    android:textColor="#000"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coverview7"
+                    android:id="@+id/coverview7.1"
+                    android:layout_marginLeft="10dp"
+                    android:text="i.Introduction"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coverview7.1"
+                    android:id="@+id/coverview7.2"
+                    android:layout_marginLeft="10dp"
+                    android:text="ii.Relation and Logical"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coverview7.2"
+                    android:id="@+id/coverview7.3"
+                    android:layout_marginLeft="10dp"
+                    android:text="iii.Operator Precedence"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coverview7.3"
+                    android:id="@+id/coverview7.4"
+                    android:layout_marginLeft="10dp"
+                    android:text="iv.Associativity in C"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coverview7.4"
+                    android:id="@+id/coverview8"
+                    android:text="8.Preprocessor"
+                    android:textColor="#000"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coverview8"
+                    android:id="@+id/coverview8.1"
+                    android:layout_marginLeft="10dp"
+                    android:text="i.macro in C"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coverview8.1"
+                    android:id="@+id/coverview8.2"
+                    android:layout_marginLeft="10dp"
+                    android:text="ii.#define vs const"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coverview8.2"
+                    android:id="@+id/coverview9"
+                    android:text="9.Array and String"
+                    android:textColor="#000"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coverview9"
+                    android:id="@+id/coverview9.1"
+                    android:layout_marginLeft="10dp"
+                    android:text="i.Arrays"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coverview9.1"
+                    android:id="@+id/coverview9.2"
+                    android:layout_marginLeft="10dp"
+                    android:text="ii.multidimensional array"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coverview9.2"
+                    android:id="@+id/coverview10"
+                    android:text="10.Enum,Struct and Union"
+                    android:textColor="#000"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coverview10"
+                    android:id="@+id/coverview10.1"
+                    android:layout_marginLeft="10dp"
+                    android:text="i.Enum in c"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coverview10.1"
+                    android:id="@+id/coverview10.2"
+                    android:layout_marginLeft="10dp"
+                    android:text="ii.Structures in C"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coverview10.2"
+                    android:id="@+id/coverview10.3"
+                    android:layout_marginLeft="10dp"
+                    android:text="iii.Union In C"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coverview10.3"
+                    android:id="@+id/coverview10.4"
+                    android:layout_marginLeft="10dp"
+                    android:text="iv.Bit Fields"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coverview10.4"
+                    android:id="@+id/coverview11"
+                    android:text="11.Memory Managements"
+                    android:textColor="#000"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coverview11"
+                    android:id="@+id/coverview11.1"
+                    android:layout_marginLeft="10dp"
+                    android:text="i.Allocate memory"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coverview11.1"
+                    android:id="@+id/coverview11.2"
+                    android:layout_marginLeft="10dp"
+                    android:text="ii.Deallocate memory"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coverview11.2"
+                    android:id="@+id/coverview12"
+                    android:text="12.Allocation Functions"
+                    android:textColor="#000"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coverview12"
+                    android:id="@+id/coverview12.1"
+                    android:layout_marginLeft="10dp"
+                    android:text="i.callaoc vs malloc"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coverview12.1"
+                    android:id="@+id/coverview12.2"
+                    android:layout_marginLeft="10dp"
+                    android:text="ii.memory leak"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coverview12.2"
+                    android:id="@+id/coverview13"
+                    android:text="13.File Handling"
+                    android:textColor="#000"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coverview13"
+                    android:id="@+id/coverview13.1"
+                    android:layout_marginLeft="10dp"
+                    android:text="i.fseek() vs rewind()"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coverview13.1"
+                    android:id="@+id/coverview13.2"
+                    android:layout_marginLeft="10dp"
+                    android:text="ii.getc and feof"
+                    android:textColor="#000"
+                    android:textSize="15sp"/>
+
+            </android.support.percent.PercentRelativeLayout>
+        </ScrollView>
+    </android.support.percent.PercentRelativeLayout>
+
+</android.support.percent.PercentRelativeLayout>
+

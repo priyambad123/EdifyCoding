@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_overviewandroid"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    tools:context="com.apkglobal.edifycoding.androidpages.overviewandroidActivity">
+
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_heightPercent="100%">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.percent.PercentRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                app:layout_heightPercent="100%">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Distributed and Dynamic"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18sp"
+                    android:id="@+id/title6"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/title6"
+                    android:layout_marginTop="20sp"
+                    android:padding="10dp"
+                    android:textColor="#000"
+                    android:layout_alignParentTop="true"
+                    android:id="@+id/et_jov3"
+                    android:text="Java is designed for the distributed environment of the Internet because it handles TCP/IP
+protocols. In fact, accessing a resource using a URL is not much different from accessing a
+file. Java also supports Remote Method Invocation (RMI). This feature enables a program to
+invoke methods across a network.
+
+Java programs carry with them substantial amounts of run-time type information that
+is used to verify and resolve accesses to objects at run time. This makes it possible to
+dynamically link code in a safe and expedient manner. This is crucial to the robustness of
+the Java environment, in which small fragments of bytecode may be dynamically updated
+on a running system."/>
+
+            </android.support.percent.PercentRelativeLayout>
+        </ScrollView>
+    </android.support.percent.PercentRelativeLayout>
+
+</android.support.percent.PercentRelativeLayout>
+

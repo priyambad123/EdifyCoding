@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_overviewandroid"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    tools:context="com.apkglobal.edifycoding.androidpages.overviewandroidActivity">
+
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_heightPercent="100%">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.percent.PercentRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                app:layout_heightPercent="100%">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Architecture Neutral"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18sp"
+                    android:id="@+id/title4"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/title4"
+                    android:layout_marginTop="20sp"
+                    android:padding="10dp"
+                    android:textColor="#000"
+                    android:layout_alignParentTop="true"
+                    android:id="@+id/et_jov3"
+                    android:text="Acentral issue for the Java designers was that of code longevity and portability. One of the
+main problems facing programmers is that no guarantee exists that if you write a program
+today, it will run tomorrow—even on the same machine. Operating system upgrades,
+processor upgrades, and changes in core system resources can all combine to make a
+program malfunction. The Java designers made several hard decisions in the Java language
+and the Java Virtual Machine in an attempt to alter this situation. Their goal was “write
+once; run anywhere, any time, forever.” To a great extent, this goal was accomplished."/>
+
+            </android.support.percent.PercentRelativeLayout>
+        </ScrollView>
+    </android.support.percent.PercentRelativeLayout>
+
+</android.support.percent.PercentRelativeLayout>

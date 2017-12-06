@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_overviewandroid"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    tools:context="com.apkglobal.edifycoding.androidpages.overviewandroidActivity">
+
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_heightPercent="100%">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.percent.PercentRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                app:layout_heightPercent="100%">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Overview of Java"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18sp"
+                    android:id="@+id/title"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/title"
+                    android:layout_marginTop="20sp"
+                    android:padding="10dp"
+                    android:textColor="#000"
+                    android:layout_alignParentTop="true"
+                    android:id="@+id/et_jov1"
+                    android:text="Java was conceived by James Gosling, Patrick Naughton, Chris Warth, Ed Frank, and Mike
+Sheridan at Sun Microsystems, Inc. in 1991. It took 18 months to develop the first working
+version. This language was initially called “Oak,” but was renamed “Java” in 1995. Between
+the initial implementation of Oak in the fall of 1992 and the public announcement of Java in
+the spring of 1995, many more people contributed to the design and evolution of the language.
+Bill Joy, Arthur van Hoff, Jonathan Payne, Frank Yellin, and Tim Lindholm were key
+contributors to the maturing of the original prototype.
+Somewhat surprisingly, the original impetus for Java was not the Internet! Instead, the
+primary motivation was the need for a platform-independent (that is, architecture-neutral)
+language that could be used to create software to be embedded in various consumer electronic
+devices, such as microwave ovens and remote controls. As you can probably guess, many
+different types of CPUs are used as controllers. The trouble with C and C++ (and most other
+languages) is that they are designed to be compiled for a specific target. Although it is possible
+to compile a C++ program for just about any type of CPU, to do so requires a full C++ compiler
+targeted for that CPU. The problem is that compilers are expensive and time-consuming to
+create. An easier—and more cost-efficient—solution was needed. In an attempt to find such a
+solution, Gosling and others began work on a portable, platform-independent language that
+could be used to produce code that would run on a variety of CPUs under differing
+environments. This effort ultimately led to the creation of Java.
+About the time that the details of Java were being worked out, a second, and ultimately
+more important, factor was emerging that would play a crucial role in the future of Java.
+This second force was, of course, the World Wide Web. Had the Web not taken shape at
+about the same time that Java was being implemented, Java might have remained a useful
+but obscure language for programming consumer electronics. However, with the emergence
+of the World Wide Web, Java was propelled to the forefront of computer language design,
+because the Web, too, demanded portable programs.
+
+Most programmers learn early in their careers that portable programs are as elusive as they
+are desirable. While the quest for a way to create efficient, portable (platform-independent)
+programs is nearly as old as the discipline of programming itself, it had taken a back seat to
+other, more pressing problems. Further, because (at that time) much of the computer world
+had divided itself into the three competing camps of Intel, Macintosh, and UNIX, most
+programmers stayed within their fortified boundaries, and the urgent need for portable
+code was reduced. However, with the advent of the Internet and the Web, the old problem
+of portability returned with a vengeance. After all, the Internet consists of a diverse,
+distributed universe populated with various types of computers, operating systems, and
+CPUs. Even though many kinds of platforms are attached to the Internet, users would like
+them all to be able to run the same program. What was once an irritating but low-priority
+problem had become a high-profile necessity.
+By 1993, it became obvious to members of the Java design team that the problems of
+portability frequently encountered when creating code for embedded controllers are also
+found when attempting to create code for the Internet. In fact, the same problem that Java
+was initially designed to solve on a small scale could also be applied to the Internet on a
+large scale. This realization caused the focus of Java to switch from consumer electronics
+to Internet programming. So, while the desire for an architecture-neutral programming
+language provided the initial spark, the Internet ultimately led to Java’s large-scale success.
+As mentioned earlier, Java derives much of its character from C and C++. This is by
+intent. The Java designers knew that using the familiar syntax of C and echoing the
+object-oriented features of C++ would make their language appealing to the legions of
+experienced C/C++ programmers. In addition to the surface similarities, Java shares some
+of the other attributes that helped make C and C++ successful. First, Java was designed,
+tested, and refined by real, working programmers. It is a language grounded in the needs
+and experiences of the people who devised it. Thus, Java is a programmer’s language.
+Second, Java is cohesive and logically consistent. Third, except for those constraints
+imposed by the Internet environment, Java gives you, the programmer, full control. If you
+program well, your programs reflect it. If you program poorly, your programs reflect that,
+too. Put differently, Java is not a language with training wheels. It is a language for
+professional programmers.
+Because of the similarities between Java and C++, it is tempting to think of Java as simply
+the “Internet version of C++.” However, to do so would be a large mistake. Java has significant
+practical and philosophical differences. While it is true that Java was influenced by C++, it is
+not an enhanced version of C++. For example, Java is neither upwardly nor downwardly
+compatible with C++. Of course, the similarities with C++ are significant, and if you are a
+C++ programmer, then you will feel right at home with Java. One other point: Java was not
+designed to replace C++. Java was designed to solve a certain set of problems. C++ was
+designed to solve a different set of problems. Both will coexist for many years to come.
+As mentioned at the start of this chapter, computer languages evolve for two reasons:
+to adapt to changes in environment and to implement advances in the art of programming.
+The environmental change that prompted Java was the need for platform-independent
+programs destined for distribution on the Internet. However, Java also embodies changes
+in the way that people approach the writing of programs. For example, Java enhanced
+and refined the object-oriented paradigm used by C++, added integrated support for
+multithreading, and provided a library that simplified Internet access. In the final analysis,
+though, it was not the individual features of Java that made it so remarkable. Rather, it was
+the language as a whole. Java was the perfect response to the demands of the then newly
+emerging, highly distributed computing universe. Java was to Internet programming what
+C was to system programming: a revolutionary force that changed the world."/>
+
+            </android.support.percent.PercentRelativeLayout>
+        </ScrollView>
+    </android.support.percent.PercentRelativeLayout>
+
+</android.support.percent.PercentRelativeLayout>

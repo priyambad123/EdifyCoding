@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_cplus"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backa"
+    android:orientation="vertical"
+
+    tools:context="com.apkglobal.edifycoding.codepages.CplusActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/cplusplus" />
+
+    <Button
+        android:layout_width="@dimen/button_width"
+        android:background="@drawable/button_background"
+        android:layout_height="@dimen/button_height"
+        android:text="Basic Idea"
+        android:textColor="@color/button_text"
+        android:layout_marginBottom="20dp"
+        android:textSize="18sp"
+        android:textAllCaps="true"
+        android:id="@+id/btn_cpp"
+        android:layout_gravity="center"
+        android:theme="@style/MyButton"
+        android:layout_marginTop="10sp"/>
+
+    <Button
+        android:layout_width="@dimen/button_width"
+        android:background="@drawable/button_background"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginBottom="20dp"
+        android:text="View Notes"
+        android:textSize="18sp"
+        android:textColor="@color/button_text"
+        android:textAllCaps="true"
+        android:layout_gravity="center"
+        android:id="@+id/btn_cppnotes"
+        android:theme="@style/MyButton" />
+
+    <Button
+        android:layout_width="@dimen/button_width"
+        android:background="@drawable/button_background"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginBottom="20dp"
+        android:textSize="18sp"
+        android:textColor="@color/button_text"
+        android:textAllCaps="true"
+        android:text="Video Tutorial"
+        android:layout_gravity="center"
+        android:id="@+id/btn_tutcpp"
+        android:theme="@style/MyButton"/>
+
+    <Button
+        android:layout_width="@dimen/button_width"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_background"
+        android:layout_height="@dimen/button_height"
+        android:textAllCaps="true"
+        android:textColor="@color/button_text"
+        android:textSize="18sp"
+        android:text="online projects"
+        android:id="@+id/btn_projectcpp"
+        android:layout_gravity="center"
+        android:theme="@style/MyButton"/>
+
+</LinearLayout>

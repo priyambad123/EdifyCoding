@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.apkglobal.edifycoding">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icbc_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Base.AlertDialog.AppCompat.Light">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.ActionBar" />
+        <activity android:name=".WelcomeScreen.WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".authentication.LoginActivity"
+            android:label="Login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".authentication.ResetPasswordActivity"
+            android:label="Reset Password"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".authentication.SignupActivity"
+            android:label="Sign Up"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".codepages.AndroidActivity"
+            android:label="Android"
+            android:theme="@style/AppTheme.ActionBar" />
+        <activity
+            android:name=".codepages.JavaActivity"
+            android:label="Java"
+            android:theme="@style/AppTheme.ActionBar" />
+        <activity
+            android:name=".codepages.PythonActivity"
+            android:label="Python"
+            android:theme="@style/AppTheme.ActionBar" />
+        <activity
+            android:name=".codepages.CActivity"
+            android:label="C"
+            android:theme="@style/AppTheme.ActionBar" />
+        <activity
+            android:name=".codepages.CplusActivity"
+            android:label="C++"
+            android:theme="@style/AppTheme.ActionBar" />
+        <activity android:name=".codepages.ProjectActivity" />
+        <activity
+            android:name=".androidpages.overviewandroidActivity"
+            android:label="Overview"
+            android:theme="@style/AppTheme.ActionBar" />
+        <activity
+            android:name=".androidpages.tutorialsandroidActivity"
+            android:label="Android Tutorial"
+            android:theme="@style/AppTheme.ActionBar" />
+        <activity
+            android:name=".androidpages.notesandroidActivity"
+            android:label="Android Notes"
+            android:theme="@style/AppTheme.ActionBar" />
+        <activity android:name=".androidpages.projectandroidActivity" />
+        <activity
+            android:name=".SplashActivity"
+            android:noHistory="true" />
+        <activity
+            android:name=".cpages.notescActivity"
+            android:label="C Notes"
+            android:theme="@style/AppTheme.ActionBar" />
+        <activity
+            android:name=".cpages.overviewcActivity"
+            android:label="Overview"
+            android:theme="@style/AppTheme.ActionBar" />
+        <activity android:name=".cpages.projectcActivity" />
+        <activity
+            android:name=".cpages.tutorialcActivity"
+            android:label="C Tutorial"
+            android:theme="@style/AppTheme.ActionBar" />
+        <activity
+            android:name=".cpluspages.notescplusActivity"
+            android:label="C++ Notes"
+            android:theme="@style/AppTheme.ActionBar" />
+        <activity
+            android:name=".cpluspages.overviewcplusActivity"
+            android:label="Overview"
+            android:theme="@style/AppTheme.ActionBar" />
+        <activity android:name=".cpluspages.projectcplusActivity" />
+        <activity
+            android:name=".cpluspages.tutorialcplusActivity"
+            android:label="C++ Tutorial"
+            android:theme="@style/AppTheme.ActionBar" />
+        <activity
+            android:name=".javapages.notesjavaActivity"
+            android:label="Java Notes"
+            android:theme="@style/AppTheme.ActionBar" />
+        <activity
+            android:name=".javapages.overviewjavaActivity"
+            android:label="Overview"
+            android:theme="@style/AppTheme.ActionBar" />
+        <activity android:name=".javapages.projectjavaActivity" />
+        <activity
+            android:name=".javapages.tutorialjavaActivity"
+            android:label="Java Tutorial"
+            android:theme="@style/AppTheme.ActionBar" />
+        <activity
+            android:name=".pythonpages.notespythonActivity"
+            android:label="Python Notes"
+            android:theme="@style/AppTheme.ActionBar" />
+        <activity
+            android:name=".pythonpages.overviewpythonActivity"
+            android:label="Overview"
+            android:theme="@style/AppTheme.ActionBar" />
+        <activity android:name=".pythonpages.projectpythonActivity" />
+        <activity
+            android:name=".pythonpages.tutorialpythonActivity"
+            android:label="Python Tutorial"
+            android:theme="@style/AppTheme.ActionBar" />
+        <activity
+            android:name=".contact_us"
+            android:label="Contact Us"
+            android:theme="@style/AppTheme.ActionBar" />
+        <activity
+            android:name=".about"
+            android:label="About"
+            android:theme="@style/AppTheme.ActionBar" />
+        <activity
+            android:name=".more_info"
+            android:label="More Info"
+            android:theme="@style/AppTheme.ActionBar" />
+        <activity android:name=".javatext.Javatext1Activity" />
+        <activity android:name=".javatext.Javatext2Activity" />
+        <activity android:name=".javatext.Javatext3Activity" />
+        <activity android:name=".javatext.Javatext4Activity" />
+        <activity android:name=".javatext.Javatext5Activity" />
+        <activity android:name=".javatext.Javatext6Activity" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps"></activity>
+    </application>
+
+</manifest>

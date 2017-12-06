@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_overviewandroid"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    tools:context="com.apkglobal.edifycoding.androidpages.overviewandroidActivity">
+
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_heightPercent="100%">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.percent.PercentRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                app:layout_heightPercent="100%">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/andoverviewtitle"
+        android:text="Android Course Content"
+        android:textColor="@color/colorAccent"
+        android:textSize="25sp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/andoverviewtitle"
+        android:id="@+id/andoverview1"
+        android:text="1.Introduction to Android"
+        android:textColor="#000"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/andoverview1"
+        android:id="@+id/andoverview1.1"
+        android:layout_marginLeft="10dp"
+        android:text="i.Overview of Android and Android SDK"
+        android:textColor="#000"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/andoverview1.1"
+        android:id="@+id/andoverview1.2"
+        android:layout_marginLeft="10dp"
+        android:text="ii.History of Android"
+        android:textColor="#000"
+        android:textSize="15sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/andoverview1.2"
+        android:id="@+id/andoverview1.3"
+        android:layout_marginLeft="10dp"
+        android:text="iii.Android Features"
+        android:textColor="#000"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/andoverview1.3"
+        android:id="@+id/andoverview2"
+        android:text="2.Android Architecture Overview"
+        android:textColor="#000"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/andoverview2"
+        android:id="@+id/andoverview2.1"
+        android:layout_marginLeft="10dp"
+        android:text="i.Introduction to OS layers"
+        android:textColor="#000"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/andoverview2.1"
+        android:id="@+id/andoverview2.2"
+        android:layout_marginLeft="10dp"
+        android:text="ii.Linux Kernel"
+        android:textColor="#000"
+        android:textSize="15sp"/>
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/andoverview2.2"
+    android:id="@+id/andoverview2.3"
+    android:layout_marginLeft="10dp"
+    android:text="iii.Libraries"
+    android:textColor="#000"
+    android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/andoverview2.3"
+        android:id="@+id/andoverview2.4"
+        android:layout_marginLeft="10dp"
+        android:text="iv.Android Runtime"
+        android:textColor="#000"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/andoverview2.4"
+        android:id="@+id/andoverview2.5"
+        android:layout_marginLeft="10dp"
+        android:text="v.Application Framework"
+        android:textColor="#000"
+        android:textSize="15sp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/andoverview2.5"
+        android:id="@+id/andoverview3"
+        android:text="3.Setup of Android Development Environment"
+        android:textColor="#000"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/andoverview3"
+        android:id="@+id/andoverview3.1"
+        android:layout_marginLeft="10dp"
+        android:text="i.System Requirements"
+        android:textColor="#000"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/andoverview3.1"
+        android:id="@+id/andoverview3.2"
+        android:layout_marginLeft="10dp"
+        android:text="ii.Eclipse and SDK installation"
+        android:textColor="#000"
+        android:textSize="15sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/andoverview3.2"
+        android:id="@+id/andoverview3.3"
+        android:layout_marginLeft="10dp"
+        android:text="iii.Creating First Android Application"
+        android:textColor="#000"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/andoverview3.3"
+        android:id="@+id/andoverview3.4"
+        android:layout_marginLeft="10dp"
+        android:text="iv.Project Structure"
+        android:textColor="#000"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/andoverview3.4"
+        android:id="@+id/andoverview4"
+        android:text="4.Android Application Fundamentals"
+        android:textColor="#000"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/andoverview4"
+        android:id="@+id/andoverview4.1"
+        android:layout_marginLeft="10dp"
+        android:text="i.Android Application Building Blocks"
+        android:textColor="#000"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/andoverview4.1"
+        android:id="@+id/andoverview4.2"
+        android:layout_marginLeft="10dp"
+        android:text="ii.Activating Components"
+        android:textColor="#000"
+        android:textSize="15sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/andoverview4.2"
+        android:id="@+id/andoverview4.3"
+        android:layout_marginLeft="10dp"
+        android:text="iii.Shutting down components"
+        android:textColor="#000"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/andoverview4.3"
+        android:id="@+id/andoverview4.4"
+        android:layout_marginLeft="10dp"
+        android:text="iv.Lifecycle of Application"
+        android:textColor="#000"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/andoverview4.4"
+        android:id="@+id/andoverview4.5"
+        android:layout_marginLeft="10dp"
+        android:text="v.Development tools, Manifest File"
+        android:textColor="#000"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/andoverview4.5"
+        android:id="@+id/andoverview4.6"
+        android:layout_marginLeft="10dp"
+        android:text="vi.Lifecycle of Activity"
+        android:textColor="#000"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/andoverview4.6"
+        android:id="@+id/andoverview5"
+        android:text="5.User Interface"
+        android:textColor="#000"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/andoverview5"
+        android:id="@+id/andoverview5.1"
+        android:layout_marginLeft="10dp"
+        android:text="i.View Hierarchy and Layouts"
+        android:textColor="#000"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/andoverview5.1"
+        android:id="@+id/andoverview5.2"
+        android:layout_marginLeft="10dp"
+        android:text="ii.UI Events"
+        android:textColor="#000"
+        android:textSize="15sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/andoverview5.2"
+        android:id="@+id/andoverview5.3"
+        android:layout_marginLeft="10dp"
+        android:text="iii.Building Menus"
+        android:textColor="#000"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/andoverview5.3"
+        android:id="@+id/andoverview5.4"
+        android:layout_marginLeft="10dp"
+        android:text="iv.Creating Dialogues"
+        android:textColor="#000"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/andoverview5.4"
+        android:id="@+id/andoverview6"
+        android:text="6.Main Building Block"
+        android:textColor="#000"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/andoverview6"
+        android:id="@+id/andoverview6.1"
+        android:layout_marginLeft="10dp"
+        android:text="i.Activity"
+        android:textColor="#000"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/andoverview6.1"
+        android:id="@+id/andoverview6.2"
+        android:layout_marginLeft="10dp"
+        android:text="ii.Intents"
+        android:textColor="#000"
+        android:textSize="15sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/andoverview6.2"
+        android:id="@+id/andoverview6.3"
+        android:layout_marginLeft="10dp"
+        android:text="iii.Pending Intent"
+        android:textColor="#000"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/andoverview6.3"
+        android:id="@+id/andoverview6.4"
+        android:layout_marginLeft="10dp"
+        android:text="iv.Broadcast Reciever"
+        android:textColor="#000"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/andoverview6.4"
+        android:id="@+id/andoverview7"
+        android:text="7.Data Storage"
+        android:textColor="#000"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/andoverview7"
+        android:id="@+id/andoverview7.1"
+        android:layout_marginLeft="10dp"
+        android:text="i.Shared Preferences"
+        android:textColor="#000"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/andoverview7.1"
+        android:id="@+id/andoverview7.2"
+        android:layout_marginLeft="10dp"
+        android:text="ii.SQLite Database"
+        android:textColor="#000"
+        android:textSize="15sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/andoverview7.2"
+        android:id="@+id/andoverview7.3"
+        android:layout_marginLeft="10dp"
+        android:text="iii.Content Provider"
+        android:textColor="#000"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/andoverview7.3"
+        android:id="@+id/andoverview7.4"
+        android:layout_marginLeft="10dp"
+        android:text="iv.Contact Provider"
+        android:textColor="#000"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/andoverview7.4"
+        android:id="@+id/andoverview8"
+        android:text="8.Location Services"
+        android:textColor="#000"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/andoverview8"
+        android:id="@+id/andoverview8.1"
+        android:layout_marginLeft="10dp"
+        android:text="i.Selecting Location Provider"
+        android:textColor="#000"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/andoverview8.1"
+        android:id="@+id/andoverview8.2"
+        android:layout_marginLeft="10dp"
+        android:text="ii.Finding your Location"
+        android:textColor="#000"
+        android:textSize="15sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/andoverview8.2"
+        android:id="@+id/andoverview9"
+        android:text="9.Google Maps"
+        android:textColor="#000"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/andoverview9"
+        android:id="@+id/andoverview9.1"
+        android:layout_marginLeft="10dp"
+        android:text="i.Creating Maps-Based Activities"
+        android:textColor="#000"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/andoverview9.1"
+        android:id="@+id/andoverview9.2"
+        android:layout_marginLeft="10dp"
+        android:text="ii.Using the Geocoder"
+        android:textColor="#000"
+        android:textSize="15sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/andoverview9.2"
+        android:id="@+id/andoverview10"
+        android:text="10.Android Media API"
+        android:textColor="#000"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/andoverview10"
+        android:id="@+id/andoverview10.1"
+        android:layout_marginLeft="10dp"
+        android:text="i.Plying Audio/Video"
+        android:textColor="#000"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/andoverview10.1"
+        android:id="@+id/andoverview10.2"
+        android:layout_marginLeft="10dp"
+        android:text="ii.Media Recording"
+        android:textColor="#000"
+        android:textSize="15sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/andoverview10.2"
+        android:id="@+id/andoverview10.3"
+        android:layout_marginLeft="10dp"
+        android:text="iii.Controlling Camera Settings"
+        android:textColor="#000"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/andoverview10.3"
+        android:id="@+id/andoverview10.4"
+        android:layout_marginLeft="10dp"
+        android:text="iv.Taking a Picture"
+        android:textColor="#000"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/andoverview10.4"
+        android:id="@+id/andoverview11"
+        android:text="11.Telephony Manager"
+        android:textColor="#000"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/andoverview11"
+        android:id="@+id/andoverview11.1"
+        android:layout_marginLeft="10dp"
+        android:text="i.Making Phone Calls"
+        android:textColor="#000"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/andoverview11.1"
+        android:id="@+id/andoverview11.2"
+        android:layout_marginLeft="10dp"
+        android:text="ii.Controlling the Phone"
+        android:textColor="#000"
+        android:textSize="15sp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/andoverview11.2"
+        android:id="@+id/andoverview12"
+        android:text="12.Bluetooth"
+        android:textColor="#000"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/andoverview12"
+        android:id="@+id/andoverview12.1"
+        android:layout_marginLeft="10dp"
+        android:text="i.Introducing the Bluetooth Service"
+        android:textColor="#000"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/andoverview12.1"
+        android:id="@+id/andoverview12.2"
+        android:layout_marginLeft="10dp"
+        android:text="ii.Communication with Bluetooth"
+        android:textColor="#000"
+        android:textSize="15sp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/andoverview12.2"
+        android:id="@+id/andoverview13"
+        android:text="13.Wi-Fi"
+        android:textColor="#000"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/andoverview13"
+        android:id="@+id/andoverview13.1"
+        android:layout_marginLeft="10dp"
+        android:text="i.Managing your Wi-Fi"
+        android:textColor="#000"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/andoverview13.1"
+        android:id="@+id/andoverview13.2"
+        android:layout_marginLeft="10dp"
+        android:text="ii.Monitoring and Managing your Internet Connectivity"
+        android:textColor="#000"
+        android:textSize="15sp"/>
+
+            </android.support.percent.PercentRelativeLayout>
+        </ScrollView>
+    </android.support.percent.PercentRelativeLayout>
+
+</android.support.percent.PercentRelativeLayout>

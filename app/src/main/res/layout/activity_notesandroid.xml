@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ffffff"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_heightPercent="100%">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.percent.PercentRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                app:layout_heightPercent="100%">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/androidnotestitle"
+                    android:text="Notes for Android"
+                    android:textColor="@color/title_head"
+                    android:textSize="25sp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:text="Head First Android Devlopment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/androidpdfbook1"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:shadowColor="@color/colorAccent"
+                    android:layout_marginTop="40dp"
+                    />
+                <TextView
+                    android:layout_below="@id/androidpdfbook1"
+                    android:text="Head First Android Development uses a visually rich format to engage your mind, rather than a text-heavy approach that puts you to sleep. Why waste your time struggling with new concepts? This multi-sensory learning experience is designed for the way your brain really works.You’ll learn hands-on how to structure your app, design interfaces, create a database, make your app work on various smartphones and tablets, and much more.
+ "
+                    android:layout_width="match_parent"
+                    android:textColor="#000"
+                    android:textAlignment="gravity"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/androidpdfbookdescriptionlink1"
+                    android:layout_marginTop="10dp"
+                    />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/andlinkimg1"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@android:drawable/arrow_down_float"
+                    android:layout_below="@id/androidpdfbookdescriptionlink1"/>
+
+
+                <TextView
+                    android:layout_below="@id/andlinkimg1"
+                    android:text="Read Head First Android Devlopment Online"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/androidpdfbooklink1"
+                    android:textStyle="bold"></TextView>
+                <TextView
+                    android:text="Android Programming for Beginners"
+                    android:layout_below="@id/androidpdfbooklink1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/androidpdfbook2"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:shadowColor="@color/colorAccent"
+                    android:layout_marginTop="40dp"
+                    />
+                <TextView
+                    android:layout_below="@id/androidpdfbook2"
+                    android:text="Android Programming for Beginners will be your companion to create Android applications from scratch—whether you’re looking to start your programming career, make an application for work, be reintroduced to mobile development, or are just looking to program for fun.We will introduce you to all the fundamental concepts of programming in an Android context, from the Java basics to working with the Android API."
+                    android:layout_width="match_parent"
+                    android:textAlignment="gravity"
+                    android:textColor="#000"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/androidpdfbookdescriptionlink2"
+                    android:layout_marginTop="10dp"
+                    />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/andlinkimg2"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@android:drawable/arrow_down_float"
+                    android:layout_below="@id/androidpdfbookdescriptionlink2"/>
+
+                <TextView
+                    android:layout_below="@id/andlinkimg2"
+                    android:text="Android Programmin for Beginners"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/androidpdfbooklink2"
+                    android:textStyle="bold"></TextView>
+            </android.support.percent.PercentRelativeLayout>
+        </ScrollView>
+    </android.support.percent.PercentRelativeLayout>
+
+
+</android.support.percent.PercentRelativeLayout>

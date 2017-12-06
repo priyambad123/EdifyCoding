@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_overviewandroid"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    tools:context="com.apkglobal.edifycoding.androidpages.overviewandroidActivity">
+
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_heightPercent="100%">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.percent.PercentRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                app:layout_heightPercent="100%">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Multithreaded"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18sp"
+                    android:id="@+id/title3"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/title"
+                    android:layout_marginTop="20sp"
+                    android:padding="10dp"
+                    android:textColor="#000"
+                    android:layout_alignParentTop="true"
+                    android:id="@+id/et_jov3"
+                    android:text="Java was designed to meet the real-world requirement of creating interactive, networked
+programs. To accomplish this, Java supports multithreaded programming, which allows
+you to write programs that do many things simultaneously. The Java run-time system
+comes with an elegant yet sophisticated solution for multiprocess synchronization that
+enables you to construct smoothly running interactive systems. Java’s easy-to-use approach
+to multithreading allows you to think about the specific behavior of your program, not the
+multitasking subsystem."/>
+
+            </android.support.percent.PercentRelativeLayout>
+        </ScrollView>
+    </android.support.percent.PercentRelativeLayout>
+
+</android.support.percent.PercentRelativeLayout>

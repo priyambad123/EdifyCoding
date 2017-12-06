@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_notesc"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:layout_marginBottom="30dp"
+    tools:context="com.apkglobal.edifycoding.pythonpages.notespythonActivity">
+
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_heightPercent="100%"
+        >
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.percent.PercentRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                app:layout_heightPercent="100%">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pythonnotestitle"
+                    android:text="Python Notes"
+                    android:textColor="@color/title_head"
+                    android:textSize="25sp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:text="Learn Python The Hard Way"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pythonpdfbook1"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:shadowColor="@color/colorAccent"
+                    android:layout_marginTop="40dp"
+                    />
+                <TextView
+                    android:layout_below="@id/pythonpdfbook1"
+                    android:text="Learn Python the Hard Way by Zed Shaw looks very nice, specially for complete beginners. It tries to mimic the way a lot of people actually learned programming, that is tediously typing in programs seen somewhere else and slightly editing them so that they do what they want to achieve."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:id="@+id/pythonpdfbookdescriptionlink1"
+                    android:layout_marginTop="10dp"
+                    />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pythonlinkimg1"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@android:drawable/arrow_down_float"
+                    android:layout_below="@id/pythonpdfbookdescriptionlink1"/>
+
+
+                <TextView
+                    android:layout_below="@id/pythonlinkimg1"
+                    android:text="Read Learn Python Online"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pythonpdfbooklink1"
+                    android:textStyle="bold"></TextView>
+                <TextView
+                    android:text="Learning Python"
+                    android:layout_below="@id/pythonpdfbooklink1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pythonpdfbook2"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:shadowColor="@color/colorAccent"
+                    android:layout_marginTop="40dp"
+                    />
+                <TextView
+                    android:layout_below="@id/pythonpdfbook2"
+                    android:text="Get a comprehensive, in-depth introduction to the core Python language with this hands-on book. Based on author Mark Lutz’spopular training course, this updated fifth edition will help you quickly write efficient, high-quality code with Python. It’s an ideal way to begin, whether you’re new to programming or a professional developer versed in other languages."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:id="@+id/pythonpdfbookdescriptionlink2"
+                    android:layout_marginTop="10dp"
+                    />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pythonlinkimg2"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@android:drawable/arrow_down_float"
+                    android:layout_below="@id/pythonpdfbookdescriptionlink2"/>
+
+                <TextView
+                    android:layout_below="@id/pythonlinkimg2"
+                    android:text="Read Learning Python Online"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pythonpdfbooklink2"
+                    android:textStyle="bold"></TextView>
+            </android.support.percent.PercentRelativeLayout>
+        </ScrollView>
+    </android.support.percent.PercentRelativeLayout>
+</android.support.percent.PercentRelativeLayout>

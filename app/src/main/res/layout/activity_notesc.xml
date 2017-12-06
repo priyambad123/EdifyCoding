@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_notesc"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:layout_marginBottom="30dp"
+    tools:context="com.apkglobal.edifycoding.cpages.notescActivity">
+
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_heightPercent="100%">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_heightPercent="100%">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cnotestitle"
+            android:text="C Notes"
+            android:textColor="@color/title_head"
+            android:textSize="25sp"
+            android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:text="The C programming language"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:id="@+id/cpdfbook1"
+        android:textStyle="bold"
+        android:shadowColor="@color/colorAccent"
+        android:layout_marginTop="40dp" />
+        <TextView
+            android:layout_below="@id/cpdfbook1"
+            android:text="The C Programming Language (Ansi C Version) is a
+ programming guide written by authors Brian W. Kernighan and Dennis M. Ritchie, this book is regarded
+ as the authoritative reference on C.This book covers
+ every concept of C language in detail. The book will be of great help to people looking to study computer
+  concepts and C programming, computer programming, programming methodology and data structures."
+            android:layout_width="match_parent"
+            android:textColor="#000"
+            android:layout_height="wrap_content"
+            android:textAlignment="gravity"
+            android:id="@+id/cpdfbookdescriptionlink1"
+            android:layout_marginTop="10dp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/clinkimg1"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:src="@android:drawable/arrow_down_float"
+            android:layout_below="@id/cpdfbookdescriptionlink1"/>
+
+
+        <TextView
+            android:layout_below="@id/clinkimg1"
+            android:text="Read K and R Online"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cpdfbooklink1"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"></TextView>
+        <TextView
+            android:text="Let Us C"
+            android:layout_below="@id/cpdfbooklink1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cpdfbook2"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:shadowColor="@color/colorAccent"
+            android:layout_marginTop="40dp" />
+        <TextView
+            android:layout_below="@id/cpdfbook2"
+            android:text="The book give brief explanation for basic stuff ( e.g.
+Algorithm, Control Structure, Functions and Pointers,
+Data types). This book doesn't assume any programming background. Author taught through examples,which makes any concept become easy to grasp. Each chapter have exercise with minimum 10 programs."
+            android:layout_width="match_parent"
+            android:textColor="#000"
+            android:layout_height="wrap_content"
+            android:textAlignment="gravity"
+            android:id="@+id/cpdfbookdescriptionlink2"
+            android:layout_marginTop="10dp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/clinkimg2"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:src="@android:drawable/arrow_down_float"
+            android:layout_below="@id/cpdfbookdescriptionlink2"/>
+
+        <TextView
+            android:layout_below="@id/clinkimg2"
+            android:text="Read Let Us C Online"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cpdfbooklink2"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"></TextView>
+    </android.support.percent.PercentRelativeLayout>
+    </ScrollView>
+    </android.support.percent.PercentRelativeLayout>
+</android.support.percent.PercentRelativeLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_notescplus"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:layout_marginBottom="30dp"
+
+    tools:context="com.apkglobal.edifycoding.cpluspages.notescplusActivity">
+
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_heightPercent="100%"
+        >
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.percent.PercentRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                app:layout_heightPercent="100%">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cplusnotestitle"
+                    android:text="Notes for C++"
+                    android:textColor="@color/title_head"
+                    android:textSize="25sp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:text="The C++ Programming Language "
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cpluspdfbook1"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:shadowColor="@color/colorAccent"
+                    android:layout_marginTop="40dp"/>
+                    />
+                <TextView
+                    android:layout_below="@id/cpluspdfbook1"
+                    android:text="The C++ Programming Language was the first book to describe the C++ programming language, written by the language’s creator, Bjarne Stroustrup, and first published in October 1985. In the absence of an official standard, the book served for several years as the de facto documentation for the evolving C++ language"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:textAlignment="gravity"
+                    android:id="@+id/cpluspdfbookdescriptionlink1"
+                    android:layout_marginTop="10dp"
+                    />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cpplinkimg1"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@android:drawable/arrow_down_float"
+                    android:layout_below="@id/cpluspdfbookdescriptionlink1"/>
+
+
+                <TextView
+                    android:layout_below="@id/cpplinkimg1"
+                    android:text="Read The C++ prog Language online"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cpluspdfbooklink1"
+                    android:textStyle="bold"></TextView>
+                <TextView
+                    android:text="Accelerated C++: Practical Programming by Example"
+                    android:layout_below="@id/cpluspdfbooklink1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:id="@+id/cpluspdfbook2"
+                    android:textStyle="bold"
+                    android:shadowColor="@color/colorAccent"
+                    android:layout_marginTop="40dp"
+                    />
+                <TextView
+                    android:layout_below="@id/cpluspdfbook2"
+                    android:text="Accelerated C++: Practical Programming by Example (C++ in Depth Series) approaches the subject of C++ with a different angle. The book do not to dwell on the the fundamentals of the language and instead, dives straight into the most high-level C++ strategies and implementations that are being used by computer programmers worldwide. It teaches its readers C++ upside down, i.e., starting from the end and moving towards the basics. Based more on the practical aspects than the theoretical, it aims to teach the learners to code immediately without having to spend time on the how and the why."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:id="@+id/cpluspdfbookdescriptionlink2"
+                    android:layout_marginTop="10dp"
+                    android:textAlignment="gravity"
+                    />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cpplinkimg2"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@android:drawable/arrow_down_float"
+                    android:layout_below="@id/cpluspdfbookdescriptionlink2"/>
+
+                <TextView
+                    android:layout_below="@id/cpplinkimg2"
+                    android:text="Read Accelerated C++ Online"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cpluspdfbooklink2"
+                    android:textStyle="bold"></TextView>
+            </android.support.percent.PercentRelativeLayout>
+        </ScrollView>
+    </android.support.percent.PercentRelativeLayout>
+</android.support.percent.PercentRelativeLayout>
